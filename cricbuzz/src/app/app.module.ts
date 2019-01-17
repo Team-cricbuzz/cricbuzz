@@ -10,13 +10,12 @@ import { ScheduleSectionComponent } from './schedule-section/schedule-section.co
 import { NewsSectionComponent } from './news-section/news-section.component';
 import { HeaderComponent } from './nav/header/header.component';
 import { FooterComponent } from './nav/footer/footer.component';
-import { TeamDetailsComponent } from './teams/team-details/team-details.component';
 import { PlayersListComponent } from './players/players-list/players-list.component';
 import { LivescoresComponent } from './livescores/livescores.component';
 import { PhotosComponent } from './photos/photos.component';
+import { RankingsComponent } from './rankings/rankings.component';
+import { RankingService } from './rankings/ranking.service';
 import { AppRoutingModule } from './app-routing/app-routing.module';
-import { appRoutes } from './routung';
-
 import { Routes, RouterModule } from '@angular/router';
 
 
@@ -31,16 +30,16 @@ import { Routes, RouterModule } from '@angular/router';
     NewsSectionComponent,
     HeaderComponent,
     FooterComponent,
-    TeamDetailsComponent,
     PlayersListComponent,
     LivescoresComponent,
-    PhotosComponent
+    PhotosComponent,
+    RankingsComponent
   ],
   imports: [
     BrowserModule,FormsModule,
     AppRoutingModule,HttpClientModule, EmbedVideo.forRoot() 
   ],
-  providers: [],
+  providers: [RankingService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
