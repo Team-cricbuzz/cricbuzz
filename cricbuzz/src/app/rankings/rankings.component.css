@@ -1,0 +1,43 @@
+.id{
+    background-color:  black;
+    color :  white;
+    height: 50px;
+   }
+   .id2{
+       
+       color : crimson;
+      }
+      
+   #scores {
+       font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+       border-collapse: collapse;
+       width: 80%;
+     }
+     
+     #scores td, #scores th {
+       border: 1px solid #ddd;
+       padding: 8px;
+     }
+     
+     #scores tr:nth-child(even){background-color: #f2f2f2;}
+     
+     #scores tr:hover {background-color: #ddd;}
+     
+     #scores th {
+       padding-top: 12px;
+       padding-bottom: 12px;
+       text-align: left;
+       background-color: rgb(0, 0, 0);
+       color: white;
+     }
+     h4{
+       color: white;
+     }
+     body{
+      background-color:rgb(85, 200, 238);
+    }
+    table{
+      margin-left:150px;
+      border-style: solid;
+  border-color:black;      
+    }
