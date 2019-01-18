@@ -6,13 +6,17 @@ import { CommonModule } from '@angular/common';
 import { VideoSectionComponent } from './../video-section/video-section.component'
 import { PhotosComponent } from './../photos/photos.component';
 import { RankingsComponent } from '../rankings/rankings.component';
+import { TeamDetailsComponent } from '../teams/team-details/team-details.component';
+import { MatchesComponent } from '../matches/matches.component';
+
 
 const appRoutes: Routes = [
-  { path: 'videos',component: VideoSectionComponent},
+  { path: 'teams',component: TeamDetailsComponent},
   { path: 'livescores',component: LivescoresComponent },
   {path : 'ranking' ,component : RankingsComponent},
-  { path: 'players', component: PlayersListComponent},
-  {path : 'photos', component : PhotosComponent}
+  { path: 'videos', component: VideoSectionComponent},
+  {path : 'photos', component : PhotosComponent},
+  { path:'matches', component:MatchesComponent}
     
 ];
 

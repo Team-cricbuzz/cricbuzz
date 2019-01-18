@@ -12,7 +12,6 @@ export class VideoSectionComponent implements OnInit {
   
   youtubeUrl1 = "https://www.youtube.com/watch?v=B6tYagQ4H9o";
   youtubeUrl2 = "https://www.youtube.com/watch?v=LrARKZ6Kyd8";
-  
   ngOnInit() {
   }
 
@@ -20,7 +19,7 @@ export class VideoSectionComponent implements OnInit {
     private embedService: EmbedVideoService
   ) {
     this.yt_iframe_html1 = this.embedService.embed(this.youtubeUrl1);
-    this.yt_iframe_html2 = this.embedService.embed(this.youtubeUrl2); 
+    this.yt_iframe_html2 = this.embedService.embed(this.youtubeUrl2);  
   }
 
   

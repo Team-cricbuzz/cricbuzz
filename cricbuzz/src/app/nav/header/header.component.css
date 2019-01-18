@@ -6,7 +6,9 @@ nav
     height:100%;
     padding-bottom: 2%;
 }
-
+a{
+    color:white;
+}
 ul{
     float: right;   
 }

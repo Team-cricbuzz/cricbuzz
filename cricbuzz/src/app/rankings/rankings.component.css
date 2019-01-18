@@ -1,6 +1,7 @@
 .id{
     background-color:  black;
     color :  white;
+    height: 50px;
    }
    .id2{
        
@@ -10,7 +11,7 @@
    #scores {
        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
        border-collapse: collapse;
-       width: 100%;
+       width: 80%;
      }
      
      #scores td, #scores th {
@@ -26,9 +27,17 @@
        padding-top: 12px;
        padding-bottom: 12px;
        text-align: left;
-       background-color: olive;
+       background-color: rgb(0, 0, 0);
        color: white;
      }
      h4{
        color: white;
      }
+     body{
+      background-color:rgb(85, 200, 238);
+    }
+    table{
+      margin-left:150px;
+      border-style: solid;
+  border-color:black;      
+    }

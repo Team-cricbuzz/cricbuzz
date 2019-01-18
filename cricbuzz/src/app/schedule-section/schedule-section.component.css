@@ -2,28 +2,29 @@ h4{
   color: white;
 }
 p{
-  color: #D9534F;
+  color: rgb(255, 255, 255);
+  margin-left:150px;
+  font-size:20px;
 }
-.body{
-  background-color:lightblue;
-}
-.heading{
-    color: #D9534F;
-}
+
 .price_table_container{
 	text-align:center;
 	color:#666;
 	margin-top:30px;
-	font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+ 
 }
 
 .price_table_heading{
 	font-size:36px;
 	padding:20px;
-	background:#EEE;
+  background:#EEE;
+ 
 }
 
-
+.body{
+  background-color:rgb(85, 200, 238);
+}
 .price_table_row {
     padding:10px;
 	background: #FFF;

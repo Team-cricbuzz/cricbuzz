@@ -17,6 +17,10 @@ import { RankingsComponent } from './rankings/rankings.component';
 import { RankingService } from './rankings/ranking.service';
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { Routes, RouterModule } from '@angular/router';
+import { TeamDetailsComponent } from './teams/team-details/team-details.component';
+import { TeamService } from './teams/team-details/team.service';
+import { MatchesComponent } from './matches/matches.component';
+import { MatchesService } from './matches/matches.service';
 
 
 
@@ -33,13 +37,16 @@ import { Routes, RouterModule } from '@angular/router';
     PlayersListComponent,
     LivescoresComponent,
     PhotosComponent,
-    RankingsComponent
+    TeamDetailsComponent,
+    RankingsComponent,
+    MatchesComponent
   ],
   imports: [
     BrowserModule,FormsModule,
     AppRoutingModule,HttpClientModule, EmbedVideo.forRoot() 
   ],
-  providers: [RankingService],
+  providers: [RankingService,TeamService,
+    MatchesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Iteam } from '../../iteam'
+import { TeamService } from './team.service';
+
 
 @Component({
   selector: 'app-team-details',
@@ -7,9 +10,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TeamDetailsComponent implements OnInit {
 
-  constructor() { }
+  public teams : Iteam[];
+
+  constructor(private team:TeamService) { 
+   
+  }
 
   ngOnInit() {
+  this.team.getTeam().subscribe(rankdata => this.teams=rankdata)
   }
 
 }
