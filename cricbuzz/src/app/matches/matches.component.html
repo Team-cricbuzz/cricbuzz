@@ -1,12 +1,13 @@
- <table id="scores">
+
+<table id="scores">
   <tr>
     <th>team-1</th>
     <th>team-2</th>
     <th>type</th>
   </tr>
   <tr *ngFor="let match of matches">
-    <td>{{match.team1}}</td>
-    <td>{{match.team2}}</td>
+    <td>{{match.team-1}}</td>
+    <td>{{match.team-2}}</td>
     <td>{{match.type}}</td>
   </tr>
-</table> 
+</table>  

@@ -1,5 +1,7 @@
-import { Injectable } from  '@angular/core';
-import { HttpClient} from  '@angular/common/http';
+import {Injectable} from "@angular/core";
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
+import { IMatches } from '../imatches';
 
 @Injectable({
 providedIn:  'root'
@@ -7,9 +9,11 @@ providedIn:  'root'
 
 export  class  MatchesService {
 
-    API_URL  =  'https://cricapi.com/api/cricket?apikey=VRA0vQhoGEdC1xR3p5IByiav2SO2';
+    API_URL  =  'https://cricapi.com/api/matches?apikey=SBXNkRA46WMvllmPx3FAqKibKQu2';
 constructor(private  httpClient:  HttpClient) {}
-getMatches(){
-    return  this.httpClient.get(`${this.API_URL}/matches`);
-}
+getMatches():Observable<IMatches[]> {
+    return  this.httpClient.get<IMatches[]>(this.API_URL);
+     
+    } 
+
 }

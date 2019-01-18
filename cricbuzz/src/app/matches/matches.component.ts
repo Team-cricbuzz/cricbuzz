@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 import { IMatches } from '../imatches';
 import { MatchesService } from './matches.service';
 @Component({
@@ -8,17 +7,17 @@ import { MatchesService } from './matches.service';
   styleUrls: ['./matches.component.css']
 })
 export class MatchesComponent implements OnInit {
-  private  matches:  Array<object> = [];
+  private  matches:{};
   constructor(private  apiService:  MatchesService) { }
   ngOnInit() {
-      this.getMatches();
+    this.loadMatches();
   }
-  public  getMatches(){
-      this.apiService.getMatches().subscribe((data:  Array<object>) => {
-          this.matches  =  data;
-          console.log(data);
-      });
-  }
+  loadMatches(){
+    this.apiService.getMatches().subscribe(data =>{
+    console.log(data);
+    this.matches = data;
+ })
+ }
   }
 
  
