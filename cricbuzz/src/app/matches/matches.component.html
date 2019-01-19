@@ -5,9 +5,8 @@
     <th>team-2</th>
     <th>type</th>
   </tr>
-  <tr *ngFor="let match of matches">
-    <td>{{match.team-1}}</td>
-    <td>{{match.team-2}}</td>
+  <tr ng-repeat="match in matches">
     <td>{{match.type}}</td>
+    <td>{{match.team2}}</td> 
   </tr>
 </table>  

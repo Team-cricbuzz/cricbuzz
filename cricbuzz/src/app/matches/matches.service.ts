@@ -1,7 +1,8 @@
 import {Injectable} from "@angular/core";
-import { HttpClient } from '@angular/common/http';
+import { HttpClient,HttpResponse } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { IMatches } from '../imatches';
+import { Response } from 'selenium-webdriver/http';
 
 @Injectable({
 providedIn:  'root'
@@ -9,11 +10,8 @@ providedIn:  'root'
 
 export  class  MatchesService {
 
+    private  matches:IMatches[];
     API_URL  =  'https://cricapi.com/api/matches?apikey=SBXNkRA46WMvllmPx3FAqKibKQu2';
-constructor(private  httpClient:  HttpClient) {}
-getMatches():Observable<IMatches[]> {
-    return  this.httpClient.get<IMatches[]>(this.API_URL);
-     
-    } 
+constructor(private  http:  HttpClient) {}
 
 }

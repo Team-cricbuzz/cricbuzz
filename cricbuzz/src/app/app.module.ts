@@ -21,6 +21,7 @@ import { TeamDetailsComponent } from './teams/team-details/team-details.componen
 import { TeamService } from './teams/team-details/team.service';
 import { MatchesComponent } from './matches/matches.component';
 import { MatchesService } from './matches/matches.service';
+import { KeyObjectPipe } from './key-object.pipe';
 
 
 
@@ -39,7 +40,8 @@ import { MatchesService } from './matches/matches.service';
     PhotosComponent,
     TeamDetailsComponent,
     RankingsComponent,
-    MatchesComponent
+    MatchesComponent,
+    KeyObjectPipe
   ],
   imports: [
     BrowserModule,FormsModule,
