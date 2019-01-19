@@ -5,7 +5,7 @@
     <th>team-2</th>
     <th>type</th>
   </tr>
-  <tr ng-repeat="match in matches">
+  <tr *ngFor="let match of data; let i=index;">
     <td>{{match.type}}</td>
     <td>{{match.team2}}</td> 
   </tr>
