@@ -1,0 +1,855 @@
+[
+    {
+        "unique_id": 1144999,
+        "date": "2019-01-18T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-18T02:20:00.000Z",
+        "team1": "Australia",
+        "team2": "India",
+        "type": "ODI",
+        "squad": true,
+        "toss_winner_team": "India",
+        "winner_team": "India",
+        "matchStarted": true
+    },
+    {
+        "unique_id": 1152781,
+        "date": "2019-01-18T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-18T23:40:00.000Z",
+        "team1": "Sydney Thunder Women",
+        "team2": "Brisbane Heat Women",
+        "type": "Twenty20",
+        "squad": true,
+        "toss_winner_team": "Sydney Thunder Women",
+        "winner_team": "Brisbane Heat Women",
+        "matchStarted": true
+    },
+    {
+        "unique_id": 1152544,
+        "date": "2019-01-18T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-18T10:30:00.000Z",
+        "team1": "Perth Scorchers",
+        "team2": "Hobart Hurricanes",
+        "type": "Twenty20",
+        "squad": true,
+        "toss_winner_team": "Hobart Hurricanes",
+        "winner_team": "Hobart Hurricanes",
+        "matchStarted": true
+    },
+    {
+        "unique_id": 1160515,
+        "date": "2019-01-18T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-18T03:00:00.000Z",
+        "team1": "Auckland",
+        "team2": "Wellington",
+        "type": "Twenty20",
+        "squad": true,
+        "toss_winner_team": "Wellington",
+        "winner_team": "Auckland",
+        "matchStarted": true
+    },
+    {
+        "unique_id": 1169397,
+        "date": "2019-01-18T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-18T08:00:00.000Z",
+        "team1": "Dhaka Dynamites",
+        "team2": "Sylhet Sixers",
+        "type": "Twenty20",
+        "squad": true,
+        "toss_winner_team": "Sylhet Sixers",
+        "winner_team": "Dhaka Dynamites",
+        "matchStarted": true
+    },
+    {
+        "unique_id": 1169398,
+        "date": "2019-01-18T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-18T13:00:00.000Z",
+        "team1": "Comilla Victorians",
+        "team2": "Khulna Titans",
+        "type": "Twenty20",
+        "squad": true,
+        "toss_winner_team": "Comilla Victorians",
+        "winner_team": "Comilla Victorians",
+        "matchStarted": true
+    },
+    {
+        "unique_id": 1144156,
+        "team2": "Pakistan",
+        "team1": "South Africa",
+        "type": "ODI",
+        "date": "2019-01-19T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-19T11:00:00.000Z",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1152782,
+        "date": "2019-01-19T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-19T02:50:00.000Z",
+        "team1": "Sydney Sixers Women",
+        "team2": "Melbourne Renegades Women",
+        "type": "Twenty20",
+        "squad": true,
+        "toss_winner_team": "Sydney Sixers Women",
+        "matchStarted": true
+    },
+    {
+        "unique_id": 1152545,
+        "date": "2019-01-19T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-19T07:45:00.000Z",
+        "team1": "Melbourne Renegades",
+        "team2": "Melbourne Stars",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1160516,
+        "date": "2019-01-19T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-19T06:10:00.000Z",
+        "team1": "Canterbury",
+        "team2": "Central Districts",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1160517,
+        "date": "2019-01-19T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-19T23:30:00.000Z",
+        "team1": "Auckland",
+        "team2": "Otago",
+        "type": "Twenty20",
+        "squad": false,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1169399,
+        "date": "2019-01-19T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-19T07:30:00.000Z",
+        "team1": "Rangpur Riders",
+        "team2": "Sylhet Sixers",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1169400,
+        "date": "2019-01-19T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-19T12:30:00.000Z",
+        "team1": "Chittagong Vikings",
+        "team2": "Khulna Titans",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1152546,
+        "date": "2019-01-20T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-20T08:15:00.000Z",
+        "team1": "Sydney Sixers",
+        "team2": "Brisbane Heat",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1152547,
+        "date": "2019-01-21T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-21T08:15:00.000Z",
+        "team1": "Adelaide Strikers",
+        "team2": "Hobart Hurricanes",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1169401,
+        "date": "2019-01-21T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-21T07:30:00.000Z",
+        "team1": "Comilla Victorians",
+        "team2": "Rajshahi Kings",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1169402,
+        "date": "2019-01-21T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-21T12:30:00.000Z",
+        "team1": "Chittagong Vikings",
+        "team2": "Dhaka Dynamites",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1144157,
+        "team2": "Pakistan",
+        "team1": "South Africa",
+        "type": "ODI",
+        "date": "2019-01-22T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-22T11:00:00.000Z",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1152548,
+        "date": "2019-01-22T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-22T08:15:00.000Z",
+        "team1": "Sydney Thunder",
+        "team2": "Melbourne Renegades",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1169403,
+        "date": "2019-01-22T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-22T07:30:00.000Z",
+        "team1": "Khulna Titans",
+        "team2": "Rangpur Riders",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1169404,
+        "date": "2019-01-22T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-22T12:30:00.000Z",
+        "team1": "Comilla Victorians",
+        "team2": "Dhaka Dynamites",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1152549,
+        "date": "2019-01-23T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-23T04:00:00.000Z",
+        "team1": "Melbourne Stars",
+        "team2": "Adelaide Strikers",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1152550,
+        "date": "2019-01-23T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-23T08:15:00.000Z",
+        "team1": "Sydney Sixers",
+        "team2": "Hobart Hurricanes",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1169405,
+        "date": "2019-01-23T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-23T07:30:00.000Z",
+        "team1": "Chittagong Vikings",
+        "team2": "Rajshahi Kings",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1169406,
+        "date": "2019-01-23T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-23T12:30:00.000Z",
+        "team1": "Khulna Titans",
+        "team2": "Sylhet Sixers",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1152551,
+        "date": "2019-01-24T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-24T10:40:00.000Z",
+        "team1": "Perth Scorchers",
+        "team2": "Sydney Thunder",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1144158,
+        "team2": "Pakistan",
+        "team1": "South Africa",
+        "type": "ODI",
+        "date": "2019-01-25T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-25T11:00:00.000Z",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1160518,
+        "date": "2019-01-25T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-25T06:10:00.000Z",
+        "team1": "Central Districts",
+        "team2": "Northern Districts",
+        "type": "Twenty20",
+        "squad": false,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1169407,
+        "date": "2019-01-25T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-25T08:00:00.000Z",
+        "team1": "Rajshahi Kings",
+        "team2": "Sylhet Sixers",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1169408,
+        "date": "2019-01-25T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-25T13:00:00.000Z",
+        "team1": "Chittagong Vikings",
+        "team2": "Rangpur Riders",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1152783,
+        "date": "2019-01-26T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-26T00:00:00.000Z",
+        "team1": "TBA",
+        "team2": "TBA",
+        "type": "Twenty20",
+        "squad": false,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1160519,
+        "date": "2019-01-26T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-26T03:00:00.000Z",
+        "team1": "Auckland",
+        "team2": "Canterbury",
+        "type": "Twenty20",
+        "squad": false,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1169409,
+        "date": "2019-01-26T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-26T07:30:00.000Z",
+        "team1": "Khulna Titans",
+        "team2": "Sylhet Sixers",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1169410,
+        "date": "2019-01-26T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-26T12:30:00.000Z",
+        "team1": "Chittagong Vikings",
+        "team2": "Rajshahi Kings",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1144159,
+        "team2": "Pakistan",
+        "team1": "South Africa",
+        "type": "ODI",
+        "date": "2019-01-27T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-27T08:00:00.000Z",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1152552,
+        "date": "2019-01-27T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-27T08:15:00.000Z",
+        "team1": "Melbourne Stars",
+        "team2": "Brisbane Heat",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1160520,
+        "date": "2019-01-27T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-27T03:00:00.000Z",
+        "team1": "Otago",
+        "team2": "Wellington",
+        "type": "Twenty20",
+        "squad": false,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1152553,
+        "date": "2019-01-28T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-28T10:15:00.000Z",
+        "team1": "Perth Scorchers",
+        "team2": "Melbourne Renegades",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1169411,
+        "date": "2019-01-28T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-28T07:30:00.000Z",
+        "team1": "Comilla Victorians",
+        "team2": "Khulna Titans",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1169412,
+        "date": "2019-01-28T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-28T12:30:00.000Z",
+        "team1": "Dhaka Dynamites",
+        "team2": "Rangpur Riders",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1152554,
+        "date": "2019-01-29T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-29T05:00:00.000Z",
+        "team1": "Hobart Hurricanes",
+        "team2": "Brisbane Heat",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1152555,
+        "date": "2019-01-29T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-29T08:00:00.000Z",
+        "team1": "Sydney Sixers",
+        "team2": "Adelaide Strikers",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1169413,
+        "date": "2019-01-29T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-29T07:30:00.000Z",
+        "team1": "Chittagong Vikings",
+        "team2": "Comilla Victorians",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1169414,
+        "date": "2019-01-29T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-29T12:30:00.000Z",
+        "team1": "Rajshahi Kings",
+        "team2": "Rangpur Riders",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1144160,
+        "team2": "Pakistan",
+        "team1": "South Africa",
+        "type": "ODI",
+        "date": "2019-01-30T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-30T11:00:00.000Z",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1152556,
+        "date": "2019-01-30T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-30T08:15:00.000Z",
+        "team1": "Melbourne Renegades",
+        "team2": "Sydney Thunder",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1169415,
+        "date": "2019-01-30T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-30T07:30:00.000Z",
+        "team1": "Chittagong Vikings",
+        "team2": "Dhaka Dynamites",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1169416,
+        "date": "2019-01-30T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-30T12:30:00.000Z",
+        "team1": "Rajshahi Kings",
+        "team2": "Sylhet Sixers",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1152557,
+        "date": "2019-01-31T00:00:00.000Z",
+        "dateTimeGMT": "2019-01-31T08:30:00.000Z",
+        "team1": "Hobart Hurricanes",
+        "team2": "Adelaide Strikers",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1144161,
+        "team2": "Pakistan",
+        "team1": "South Africa",
+        "type": "T20I",
+        "date": "2019-02-01T00:00:00.000Z",
+        "dateTimeGMT": "2019-02-01T16:00:00.000Z",
+        "squad": false,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1152558,
+        "date": "2019-02-01T00:00:00.000Z",
+        "dateTimeGMT": "2019-02-01T09:40:00.000Z",
+        "team1": "Brisbane Heat",
+        "team2": "Perth Scorchers",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1160521,
+        "date": "2019-02-01T00:00:00.000Z",
+        "dateTimeGMT": "2019-02-01T03:00:00.000Z",
+        "team1": "Central Districts",
+        "team2": "Wellington",
+        "type": "Twenty20",
+        "squad": false,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1169417,
+        "date": "2019-02-01T00:00:00.000Z",
+        "dateTimeGMT": "2019-02-01T08:00:00.000Z",
+        "team1": "Comilla Victorians",
+        "team2": "Dhaka Dynamites",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1169418,
+        "date": "2019-02-01T00:00:00.000Z",
+        "dateTimeGMT": "2019-02-01T13:00:00.000Z",
+        "team1": "Chittagong Vikings",
+        "team2": "Sylhet Sixers",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1152559,
+        "date": "2019-02-02T00:00:00.000Z",
+        "dateTimeGMT": "2019-02-02T08:00:00.000Z",
+        "team1": "Sydney Sixers",
+        "team2": "Sydney Thunder",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1160522,
+        "date": "2019-02-02T00:00:00.000Z",
+        "dateTimeGMT": "2019-02-02T03:00:00.000Z",
+        "team1": "Canterbury",
+        "team2": "Otago",
+        "type": "Twenty20",
+        "squad": false,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1160523,
+        "date": "2019-02-02T00:00:00.000Z",
+        "dateTimeGMT": "2019-02-02T03:00:00.000Z",
+        "team1": "Auckland",
+        "team2": "Northern Districts",
+        "type": "Twenty20",
+        "squad": false,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1169419,
+        "date": "2019-02-02T00:00:00.000Z",
+        "dateTimeGMT": "2019-02-02T07:30:00.000Z",
+        "team1": "Comilla Victorians",
+        "team2": "Rangpur Riders",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1169420,
+        "date": "2019-02-02T00:00:00.000Z",
+        "dateTimeGMT": "2019-02-02T12:30:00.000Z",
+        "team1": "Dhaka Dynamites",
+        "team2": "Khulna Titans",
+        "type": "Twenty20",
+        "squad": true,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1144162,
+        "team2": "Pakistan",
+        "team1": "South Africa",
+        "type": "T20I",
+        "date": "2019-02-03T00:00:00.000Z",
+        "dateTimeGMT": "2019-02-03T12:30:00.000Z",
+        "squad": false,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1152560,
+        "date": "2019-02-03T00:00:00.000Z",
+        "dateTimeGMT": "2019-02-03T07:15:00.000Z",
+        "team1": "Adelaide Strikers",
+        "team2": "Brisbane Heat",
+        "type": "Twenty20",
+        "squad": false,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1152561,
+        "date": "2019-02-03T00:00:00.000Z",
+        "dateTimeGMT": "2019-02-03T10:15:00.000Z",
+        "team1": "Perth Scorchers",
+        "team2": "Melbourne Stars",
+        "type": "Twenty20",
+        "squad": false,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1169421,
+        "date": "2019-02-04T00:00:00.000Z",
+        "dateTimeGMT": "2019-02-04T07:30:00.000Z",
+        "team1": "TBA",
+        "team2": "TBA",
+        "type": "Twenty20",
+        "squad": false,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1169422,
+        "date": "2019-02-04T00:00:00.000Z",
+        "dateTimeGMT": "2019-02-04T12:30:00.000Z",
+        "team1": "TBA",
+        "team2": "TBA",
+        "type": "Twenty20",
+        "squad": false,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1144163,
+        "team2": "Pakistan",
+        "team1": "South Africa",
+        "type": "T20I",
+        "date": "2019-02-06T00:00:00.000Z",
+        "dateTimeGMT": "2019-02-06T16:00:00.000Z",
+        "squad": false,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1169423,
+        "date": "2019-02-06T00:00:00.000Z",
+        "dateTimeGMT": "2019-02-06T12:30:00.000Z",
+        "team1": "TBA",
+        "team2": "TBA",
+        "type": "Twenty20",
+        "squad": false,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1152562,
+        "date": "2019-02-07T00:00:00.000Z",
+        "dateTimeGMT": "2019-02-07T08:30:00.000Z",
+        "team1": "Hobart Hurricanes",
+        "team2": "Melbourne Renegades",
+        "type": "Twenty20",
+        "squad": false,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1152563,
+        "date": "2019-02-08T00:00:00.000Z",
+        "dateTimeGMT": "2019-02-08T09:40:00.000Z",
+        "team1": "Brisbane Heat",
+        "team2": "Melbourne Stars",
+        "type": "Twenty20",
+        "squad": false,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1169424,
+        "date": "2019-02-08T00:00:00.000Z",
+        "dateTimeGMT": "2019-02-08T13:00:00.000Z",
+        "team1": "TBA",
+        "team2": "TBA",
+        "type": "Twenty20",
+        "squad": false,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1152564,
+        "date": "2019-02-09T00:00:00.000Z",
+        "dateTimeGMT": "2019-02-09T04:00:00.000Z",
+        "team1": "Adelaide Strikers",
+        "team2": "Perth Scorchers",
+        "type": "Twenty20",
+        "squad": false,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1152565,
+        "date": "2019-02-09T00:00:00.000Z",
+        "dateTimeGMT": "2019-02-09T07:15:00.000Z",
+        "team1": "Sydney Thunder",
+        "team2": "Hobart Hurricanes",
+        "type": "Twenty20",
+        "squad": false,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1160526,
+        "date": "2019-02-09T00:00:00.000Z",
+        "dateTimeGMT": "2019-02-09T03:00:00.000Z",
+        "team1": "Auckland",
+        "team2": "Central Districts",
+        "type": "Twenty20",
+        "squad": false,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1160525,
+        "date": "2019-02-09T00:00:00.000Z",
+        "dateTimeGMT": "2019-02-09T03:00:00.000Z",
+        "team1": "Canterbury",
+        "team2": "Wellington",
+        "type": "Twenty20",
+        "squad": false,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1160524,
+        "date": "2019-02-09T00:00:00.000Z",
+        "dateTimeGMT": "2019-02-09T06:10:00.000Z",
+        "team1": "Northern Districts",
+        "team2": "Otago",
+        "type": "Twenty20",
+        "squad": false,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1152566,
+        "date": "2019-02-10T00:00:00.000Z",
+        "dateTimeGMT": "2019-02-10T03:45:00.000Z",
+        "team1": "Melbourne Stars",
+        "team2": "Sydney Sixers",
+        "type": "Twenty20",
+        "squad": false,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1152567,
+        "date": "2019-02-14T00:00:00.000Z",
+        "dateTimeGMT": "2019-02-14T00:00:00.000Z",
+        "team1": "TBA",
+        "team2": "TBA",
+        "type": "Twenty20",
+        "squad": false,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1160527,
+        "date": "2019-02-14T00:00:00.000Z",
+        "dateTimeGMT": "2019-02-14T22:00:00.000Z",
+        "team1": "TBA",
+        "team2": "TBA",
+        "type": "Twenty20",
+        "squad": false,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1152568,
+        "date": "2019-02-15T00:00:00.000Z",
+        "dateTimeGMT": "2019-02-15T08:40:00.000Z",
+        "team1": "TBA",
+        "team2": "TBA",
+        "type": "Twenty20",
+        "squad": false,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1160528,
+        "date": "2019-02-16T00:00:00.000Z",
+        "dateTimeGMT": "2019-02-16T22:00:00.000Z",
+        "team1": "TBA",
+        "team2": "TBA",
+        "type": "Twenty20",
+        "squad": false,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1152569,
+        "date": "2019-02-17T00:00:00.000Z",
+        "dateTimeGMT": "2019-02-17T08:40:00.000Z",
+        "team1": "TBA",
+        "team2": "TBA",
+        "type": "Twenty20",
+        "squad": false,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1144982,
+        "team2": "New Zealand Women",
+        "team1": "Australia Women",
+        "type": "WomensODI",
+        "date": "2019-02-22T00:00:00.000Z",
+        "dateTimeGMT": "2019-02-22T02:20:00.000Z",
+        "squad": false,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1144983,
+        "team2": "New Zealand Women",
+        "team1": "Australia Women",
+        "type": "WomensODI",
+        "date": "2019-02-24T00:00:00.000Z",
+        "dateTimeGMT": "2019-02-24T00:50:00.000Z",
+        "squad": false,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1144981,
+        "team2": "New Zealand Women",
+        "team1": "Australia Governor-General's XI",
+        "type": "",
+        "date": "2019-02-28T00:00:00.000Z",
+        "dateTimeGMT": "2019-02-28T00:00:00.000Z",
+        "squad": false,
+        "matchStarted": false
+    },
+    {
+        "unique_id": 1144984,
+        "team2": "New Zealand Women",
+        "team1": "Australia Women",
+        "type": "WomensODI",
+        "date": "2019-03-03T00:00:00.000Z",
+        "dateTimeGMT": "2019-03-03T00:50:00.000Z",
+        "squad": false,
+        "matchStarted": false
+    }
+];

@@ -1,7 +1,11 @@
 #myFooter {
-  background-color: #3c3d41;
+  background-color:lightslategray;
   color: white;
-  padding-top: 30px;
+  padding-top: 10px;
+  bottom: 0%;
+  
+  flex: 0 0 auto;
+  -webkit-flex: 0 0 auto;
 }
 
 #myFooter .footer-copyright {
@@ -9,10 +13,11 @@
   padding-top: 3px;
   padding-bottom: 3px;
   text-align: center;
+  bottom: 0%;
 }
 
 #myFooter .row {
-  margin-bottom: 60px;
+  margin-bottom: 0px;
 }
 
 #myFooter .navbar-brand {

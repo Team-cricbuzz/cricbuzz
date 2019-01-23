@@ -10,7 +10,6 @@ import { ScheduleSectionComponent } from './schedule-section/schedule-section.co
 import { NewsSectionComponent } from './news-section/news-section.component';
 import { HeaderComponent } from './nav/header/header.component';
 import { FooterComponent } from './nav/footer/footer.component';
-import { PlayersListComponent } from './players/players-list/players-list.component';
 import { LivescoresComponent } from './livescores/livescores.component';
 import { PhotosComponent } from './photos/photos.component';
 import { RankingsComponent } from './rankings/rankings.component';
@@ -19,10 +18,6 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
 import { Routes, RouterModule } from '@angular/router';
 import { TeamDetailsComponent } from './teams/team-details/team-details.component';
 import { TeamService } from './teams/team-details/team.service';
-import { MatchesComponent } from './matches/matches.component';
-import { MatchesService } from './matches/matches.service';
-import { KeyObjectPipe } from './key-object.pipe';
-
 
 
 
@@ -35,20 +30,16 @@ import { KeyObjectPipe } from './key-object.pipe';
     NewsSectionComponent,
     HeaderComponent,
     FooterComponent,
-    PlayersListComponent,
     LivescoresComponent,
     PhotosComponent,
     TeamDetailsComponent,
-    RankingsComponent,
-    MatchesComponent,
-    KeyObjectPipe
+    RankingsComponent
   ],
   imports: [
     BrowserModule,FormsModule,
     AppRoutingModule,HttpClientModule, EmbedVideo.forRoot() 
   ],
-  providers: [RankingService,TeamService,
-    MatchesService],
+  providers: [RankingService,TeamService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
