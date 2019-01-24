@@ -1,0 +1,18 @@
+package com.example.demo.api;
+
+public class MatchData {
+
+	
+	
+	public int unique_id;
+	public  int date;
+	public int dateTimeGMT;
+	public String team1;
+	public String team2;
+	public String  type;
+	public String squad;
+	public String toss_winnerteam;
+	public String winner_team;
+	public String matchStarted;
+}
+

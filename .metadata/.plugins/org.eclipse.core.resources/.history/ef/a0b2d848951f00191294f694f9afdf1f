@@ -1,0 +1,7 @@
+package com.example.demo.dao.api;
+
+
+
+public class MatchDao extends mongorepository<MatchData,String> {
+
+}

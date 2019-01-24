@@ -1,0 +1,29 @@
+package com.example.demo.resourse;
+
+import java.util.List;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.container.AsyncResponse;
+import javax.ws.rs.container.Suspended;
+import javax.ws.rs.core.MediaType;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.example.demo.api.MatchData;
+import com.example.demo.dao.api.MatchDao;
+
+public class Match{
+	@Autowired
+	MatchDao matchDao;
+	
+	@GET
+	@Path("{uniqueid}")
+	@Produces(MediaType.APPLICATION_JSON)
+	public void read(@Suspended final AsyncResponse asyncresponse) {
+		List<MatchData> matchdatas=MatchDao.findall();
+		asyncresponse.resume(matchDao.getMatchByUniqueId(uniqueid));
+		
+	}
+}

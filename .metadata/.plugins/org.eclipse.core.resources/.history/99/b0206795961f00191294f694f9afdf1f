@@ -1,0 +1,80 @@
+package com.example.demo.api;
+
+import org.springframework.data.annotation.Id;
+
+public class MatchData {
+@Id
+	public int unique_id;
+	public  int date;
+	public int dateTimeGMT;
+	public String team1;
+	public String team2;
+	public String  type;
+	public String squad;
+	
+	
+	public int getUnique_id() {
+		return unique_id;
+	}
+	public void setUnique_id(int unique_id) {
+		this.unique_id = unique_id;
+	}
+	public int getDate() {
+		return date;
+	}
+	public void setDate(int date) {
+		this.date = date;
+	}
+	public int getDateTimeGMT() {
+		return dateTimeGMT;
+	}
+	public void setDateTimeGMT(int dateTimeGMT) {
+		this.dateTimeGMT = dateTimeGMT;
+	}
+	public String getTeam1() {
+		return team1;
+	}
+	public void setTeam1(String team1) {
+		this.team1 = team1;
+	}
+	public String getTeam2() {
+		return team2;
+	}
+	public void setTeam2(String team2) {
+		this.team2 = team2;
+	}
+	public String getType() {
+		return type;
+	}
+	public void setType(String type) {
+		this.type = type;
+	}
+	public String getSquad() {
+		return squad;
+	}
+	public void setSquad(String squad) {
+		this.squad = squad;
+	}
+	public String getToss_winnerteam() {
+		return toss_winnerteam;
+	}
+	public void setToss_winnerteam(String toss_winnerteam) {
+		this.toss_winnerteam = toss_winnerteam;
+	}
+	public String getWinner_team() {
+		return winner_team;
+	}
+	public void setWinner_team(String winner_team) {
+		this.winner_team = winner_team;
+	}
+	public String getMatchStarted() {
+		return matchStarted;
+	}
+	public void setMatchStarted(String matchStarted) {
+		this.matchStarted = matchStarted;
+	}
+	public String toss_winnerteam;
+	public String winner_team;
+	public String matchStarted;
+}
+

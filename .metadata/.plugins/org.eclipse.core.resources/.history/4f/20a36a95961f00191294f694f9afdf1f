@@ -1,0 +1,17 @@
+package com.example.demo.dao.api;
+
+import java.util.List;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.example.demo.api.MatchData;
+import com.example.demo.resourse.Match;
+
+@Transactional
+public interface MatchDao extends MongoRepository<MatchData, String>{
+	
+	public List<Match> findall();
+	public MatchData getUnique_id();
+
+}

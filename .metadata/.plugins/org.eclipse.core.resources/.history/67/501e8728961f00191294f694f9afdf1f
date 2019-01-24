@@ -1,0 +1,11 @@
+package com.example.demo.dao.api;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.example.demo.api.MatchData;
+
+public interface MatchDao extends MongoRepository<MatchData, String>{
+	
+	public list<Match> findall();
+
+}

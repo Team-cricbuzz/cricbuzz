@@ -1,0 +1,20 @@
+package com.example.demo;
+
+import org.glassfish.jersey.server.ResourceConfig;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class MatchesDatabaseApplication extends ResourceConfig {
+	
+	public MatchesDatabaseApplication(){
+		register(Matches.class);
+		
+	}
+
+	public static void main(String[] args) {
+		SpringApplication.run(MatchesDatabaseApplication.class, args);
+	}
+
+}
+
