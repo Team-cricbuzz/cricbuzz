@@ -214,3 +214,391 @@ font-family: 'Open Sans', sans-serif;
 
   }
 
+  body {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #7F7F7F;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+.strong {
+    font-weight: bold;
+    color: #777;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+
+/*Header*/
+
+.header {
+    padding: 35px 0;
+}
+
+.header-border {
+    border-top: 2px solid #337AB7;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-title {
+    font-size: 22px;
+    font-variant: small-caps;
+    font-weight: 500;
+}
+
+.header-right {
+    float: right;
+    text-align: right;
+}
+
+.header-right .header-ul {
+    list-style: none;
+    padding: 0;
+}
+
+.header-right .header-ul li {
+    margin-left: 10px;
+    display: inline-block;
+    list-style: none;
+}
+
+.header-right .header-ul li i {
+    margin-right: 5px;
+}
+
+.header-right nav li {
+    margin-right: 5px;
+    padding-right: 10px;
+    border-right: 1px solid #DDD;
+}
+
+.header-right nav li:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border: none;
+}
+
+
+/*Header*/
+
+
+/* Nav */
+
+.navbar {
+    border: 0;
+}
+
+.nav>li a {
+    display: block;
+    color: #737373;
+    border-bottom: 2px solid transparent;
+    transition: all 0.8s;
+}
+
+.nav>li a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #024D8E;
+    border-bottom: 2px solid #337AB7;
+}
+
+.nav>li a:focus {
+    color: #737373;
+}
+
+.nav-border {
+    border-top: 3px solid #E1E0DF;
+}
+
+.nav-bg {
+    background-color: #F7F7F7;
+    margin-bottom: 0;
+}
+
+
+/* Nav */
+
+
+/* Carousel */
+
+.carousel-inner {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+    width: 100%;
+    z-index: -1000;
+}
+
+.carousel-caption {
+    position: static;
+}
+
+.carousel-info {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px 20px;
+    min-height: 210px;
+}
+
+.carousel-inner .item {
+    transition-property: opacity;
+}
+
+.carousel-img {
+    max-width: 200px;
+    margin: auto;
+}
+
+.carousel-indicators {
+    bottom: 0;
+}
+
+.carousel-indicators li {
+    width: 14px;
+    height: 14px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.carousel-indicators .active {
+    width: 16px;
+    height: 16px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+
+/* Carousel */
+
+
+/* Icono */
+
+.icono-color {
+    background-color: #1D5280;
+}
+
+.icono-content {
+    display: block;
+}
+
+.icono-ul {
+    display: table;
+    width: 100%;
+    margin-bottom: 0;
+    border-collapse: collapse;
+    list-style: none;
+}
+
+.icono-ul li {
+    display: table-cell;
+    text-align: center;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.icono-ul li a {
+    display: inline-block;
+    color: #EEE;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    transition: all 1s;
+}
+
+.icono-info {
+    padding: 15px 0;
+}
+
+.icono-info i {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    font-size: 30px;
+    height: 70px;
+    padding: 20px 0 0 0;
+    margin: 30px;
+    width: 70px;
+}
+
+.icono-info .h5 {
+    text-transform: uppercase
+}
+
+.icono-info .p {
+    text-transform: lowercase;
+    font-size: 12px;
+}
+
+
+/* Icono */
+
+
+/* Noticia*/
+
+.wp-separator {
+    background-color: #EEE;
+}
+
+.descrip {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.item {
+    padding-bottom: 20px;
+}
+
+.thumbnail {
+    border-radius: 0;
+}
+
+
+/* Noticia */
+
+
+/* Footer */
+
+.footer {
+    background-color: #337AB7;
+    color: #EEE;
+    padding-top: 30px;
+}
+
+.foot-geo {
+    text-align: left;
+}
+
+.footer-p {
+    background-color: #2B679A;
+    color: #EEE;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.footer-nav {
+    display: inline-block;
+    list-style: none;
+}
+
+.footer-nav li {
+    float: left;
+    margin-right: 15px;
+}
+
+.footer-nav li a {
+    display: inline-block;
+    background-color: #EEE;
+    border-radius: 50%;
+    font-size: 25px;
+    height: 45px;
+    width: 45px;
+    padding-top: 3px;
+    transition: all 1s;
+}
+
+.footer-nav li a:hover {
+    background-color: #FFF;
+}
+
+.footer-info {
+    text-align: right;
+}
+
+
+/*PAGINA GALERIA */
+
+.galeria {
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.26);
+    margin-top: 20px;
+}
+
+.galeria-img {
+    max-width: 100%;
+    margin: auto;
+}
+
+.galeria-info {
+    padding: 20px;
+    min-height: 180px;
+}
+
+
+/* Footer */
+
+@media screen and (max-width: 768px) {
+    /*Header*/
+    .header-left, .header-right {
+        float: none;
+        text-align: center;
+    }
+    .header-right {
+        display: block;
+        width: auto;
+    }
+    /* Header */
+    /* Nav*/
+    .navbar-collapse {
+        background-color: #EEE;
+    }
+    .navbar-toggle {
+        border: 1px solid rgb(220, 220, 220);
+    }
+    /*Icono*/
+    .icono-ul {
+        margin: auto;
+        width: 90%;
+    }
+    .icono-ul li {
+        display: block;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    .icono-info {
+        padding: 5px 0;
+    }
+    .icono-info i {
+        margin: 0;
+    }
+    /* Noticia*/
+    .descrip {
+        text-align: start;
+    }
+    /* Footer*/
+    .footer-geo, .footer-info {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    /* Nav */
+    .nav>li.active {
+        background-color: #EAEAEA;
+    }
+    .navbar-collapse {
+        padding-left: 0;
+    }
+    .navbar-nav>li>a {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .dropdown-menu {
+        padding: 0;
+        margin: 0;
+        border-radius: 0;
+    }
+    .dropdown-menu>li>a {
+        padding: 15px 20px;
+    }
+    /* Nav */
+    /*Carousel*/
+    .carousel-caption {
+        padding-top: 100px;
+    }
+    /* Icono */
+    .icono-ul li a:hover {
+        color: #FFF;
+        border-top: 3px solid #FFF;
+        border-bottom: 3px solid #FFF;
+    }
+}

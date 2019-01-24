@@ -34,10 +34,10 @@
        color: white;
      }
      body{
-      background-color:rgb(85, 200, 238);
+      background-color:lightblue;
     }
     table{
       margin-left:150px;
       border-style: solid;
-  border-color:black;      
+  border-color:lightcyan;      
     }

@@ -1,19 +1,45 @@
-<nav class="navbar navbar-expand-sm navbar-blue bg-dark fixed-top">
-    <div class="container-fluid">
-      <a href="#" class="navbar-brand">
-        <img src="../assets/photo/logo1.jpg">
-      </a>
-      <div class="collapse navbar-collapse">
-         
-        <ul class="navbar-nav ml-auto">
-          <li><a routerLink="/teams" class="nav-link">Teams</a></li>
-          <li><a routerLink="/livescores" class="nav-link">LiveScores</a></li>
-          <li><a routerLink="/videos" class="nav-link">Videos</a></li>
-          <li><a routerLink="/photos" class="nav-link">Photos</a></li> 
-          <li><a routerLink="/ranking" class="nav-link">Rankings</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Basic Header</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+
+
+</head>
+
+	<body>
+
+		<header class="header-basic">
+
+			<div class="header-limiter">
+
+				<h1><a href="#"><img  padding= "0%"
+          height= "100%"
+          float="inherit" src="../assets/photo/logo.jpg"></a></h1>
+
+				<nav>
+					<a routerLink="/teams" class="nav-link">Teams</a>
+          <a routerLink="/livescores" class="nav-link">LiveScores</a>
+          <a routerLink="/videos" class="nav-link">Videos</a>
+         <a routerLink="/photos" class="nav-link">Photos</a>
+          <a routerLink="/ranking" class="nav-link">Rankings</a>
+				</nav>
+			</div>
+
+		</header>
+
+	
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="http://cdn.tutorialzine.com/misc/enhance/v3.js" async></script>
+
+	</body>
+
+</html>
 <router-outlet></router-outlet>
