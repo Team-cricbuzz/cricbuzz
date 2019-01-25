@@ -245,9 +245,10 @@ a:hover, a:focus {
 /* Footer */
 
 .footer {
-  background-color: #337AB7;
+  background-color: rgb(15, 15, 15);
   color: #EEE;
   padding-top: 30px;
+  padding-bottom: 0%;
 }
 
 .foot-geo {
@@ -276,8 +277,8 @@ a:hover, a:focus {
   background-color: #EEE;
   border-radius: 50%;
   font-size: 25px;
-  height: 45px;
-  width: 45px;
+  height: 35px;
+  width: 35px;
   padding-top: 3px;
   transition: all 1s;
 }
@@ -364,7 +365,7 @@ a:hover, a:focus {
   }
   .navbar-nav>li>a {
       padding-top: 30px;
-      padding-bottom: 30px;
+      padding-bottom: 0px;
   }
   .dropdown-menu {
       padding: 0;

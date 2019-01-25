@@ -19,8 +19,6 @@ import { Routes, RouterModule } from '@angular/router';
 import { TeamDetailsComponent } from './teams/team-details/team-details.component';
 import { TeamService } from './teams/team-details/team.service';
 
-
-
 @NgModule({
   declarations: [
     AppComponent,

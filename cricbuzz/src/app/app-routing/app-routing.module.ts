@@ -10,6 +10,7 @@ import { TeamDetailsComponent } from '../teams/team-details/team-details.compone
 
 
 
+
 const appRoutes: Routes = [
   { path: 'teams',component: TeamDetailsComponent},
   { path: 'livescores',component: LivescoresComponent },
