@@ -10,36 +10,58 @@
 	<title>Basic Header</title>
 
 	<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+  <script>
 
-
+    $(document).ready(function(){
+  
+      var showHeaderAt = 150;
+  
+      var win = $(window),
+          body = $('body');
+  
+      // Show the fixed header only on larger screen devices
+  
+      if(win.width() > 600){
+  
+        // When we scroll more than 150px down, we set the
+        // "fixed" class on the body element.
+  
+        win.on('scroll', function(e){
+  
+          if(win.scrollTop() > showHeaderAt) {
+            body.addClass('fixed');
+          }
+          else {
+            body.removeClass('fixed');
+          }
+        });
+  
+      }
+  
+    });
+  
+  </script>
 </head>
 
-	<body>
 
-		<header class="header-basic">
 
-			<div class="header-limiter">
+<header class="header-fixed">
 
-				<h1><a href="#"><span>CricBuzz</span></a></h1>
+	<div class="header-limiter">
 
-				<nav>
-					<a routerLink="/teams" class="nav-link">Teams</a>
+		<h1><a href="#">Cric<span>Buzz</span></a></h1>
+
+		<nav>
+			<a routerLink="/teams" class="nav-link">Teams</a>
           <a routerLink="/livescores" class="nav-link">LiveScores</a>
           <a routerLink="/videos" class="nav-link">Videos</a>
           <a routerLink="/photos" class="nav-link">Photos</a>
 		  <a routerLink="/ranking" class="nav-link">Rankings</a>
-		  
-          <a routerLink="/matches" class="nav-link">Matches</a>
-				</nav>
-			</div>
+		</nav>
 
-		</header>
+	</div>
 
-	
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-		<script src="http://cdn.tutorialzine.com/misc/enhance/v3.js" async></script>
-
-	</body>
+</header>
 
 </html>
 <router-outlet></router-outlet>
