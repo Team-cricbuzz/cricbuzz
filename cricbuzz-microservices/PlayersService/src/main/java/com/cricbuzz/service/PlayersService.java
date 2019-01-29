@@ -26,15 +26,12 @@ public class PlayersService {
 	@Autowired
 	PlayersRepository  playerrepo;
 	
-	@Hystrix
 	@GetMapping
 	public List<Players> getAll()
 	{
 		return playerrepo.findAll();
 		
 	}
-	
-	@Hystrix
 	@GetMapping("/{Name}")
 	public String getPlayer(@PathVariable("Name") String Name)
 	{
