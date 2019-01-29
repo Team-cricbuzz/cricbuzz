@@ -1,7 +1,5 @@
 package com.cricbuzz.config;
-
 import static springfox.documentation.builders.PathSelectors.regex;
-
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -18,8 +16,8 @@ public class SwaggerConfig {
 	public Docket productApi() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com"))
-                .paths(regex("*"))
+                .apis(RequestHandlerSelectors.basePackage("com.example.demo.dao"))
+                .paths(regex("/match.*"))
                 .build();
     }
 }
