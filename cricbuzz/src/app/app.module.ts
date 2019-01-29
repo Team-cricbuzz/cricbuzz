@@ -18,6 +18,8 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
 import { Routes, RouterModule } from '@angular/router';
 import { TeamDetailsComponent } from './teams/team-details/team-details.component';
 import { TeamService } from './teams/team-details/team.service';
+import { MatchesComponent } from './matches/matches.component';
+import { MatchService } from './matches/matches.service';
 
 @NgModule({
   declarations: [
@@ -31,13 +33,14 @@ import { TeamService } from './teams/team-details/team.service';
     LivescoresComponent,
     PhotosComponent,
     TeamDetailsComponent,
-    RankingsComponent
+    RankingsComponent,
+    MatchesComponent
   ],
   imports: [
     BrowserModule,FormsModule,
     AppRoutingModule,HttpClientModule, EmbedVideo.forRoot() 
   ],
-  providers: [RankingService,TeamService],
+  providers: [RankingService,TeamService,MatchService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
