@@ -6,14 +6,15 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 import org.springframework.context.annotation.Bean;
 
-import com.cricbuzz.filters.ErrorFilter;
-import com.cricbuzz.filters.PostFilter;
-import com.cricbuzz.filters.PreFilter;
-import com.cricbuzz.filters.RouteFilter;
+import com.cricbuzz.filter.SimpleFilter;
+import com.cricbuzz.filter.ErrorFilter;
+import com.cricbuzz.filter.PostFilter;
+import com.cricbuzz.filter.PreFilter;
+import com.cricbuzz.filter.RouteFilter;
 
+@EnableZuulProxy
 @EnableDiscoveryClient
 @SpringBootApplication
-@EnableZuulProxy
 public class GatewayApplication {
 
 	public static void main(String[] args) {
@@ -24,16 +25,20 @@ public class GatewayApplication {
 	public PreFilter preFilter() {
 		return new PreFilter();
 	}
+
 	@Bean
 	public PostFilter postFilter() {
 		return new PostFilter();
 	}
+
 	@Bean
 	public ErrorFilter errorFilter() {
 		return new ErrorFilter();
 	}
+
 	@Bean
 	public RouteFilter routeFilter() {
 		return new RouteFilter();
 	}
 }
+
