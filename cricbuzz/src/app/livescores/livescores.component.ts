@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { LiveScores } from './livescores';
+import  { LiveScoresService} from './livescores.service'
 
 @Component({
   selector: 'app-livescores',
@@ -7,9 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LivescoresComponent implements OnInit {
 
-  constructor() { }
+  public livescores : LiveScores[] ;
+  response:any;
+
+  constructor(private score:LiveScoresService) { }
 
   ngOnInit() {
+    this.score.getAll().subscribe((response) =>{ 
+      this.response=response;
+      console.log(this.response)});
+    console.log("livescore after")
   }
 
 }

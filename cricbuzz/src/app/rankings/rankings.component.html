@@ -8,11 +8,11 @@
     <th>Points</th>
     <th>Rating</th>
   </tr>
-  <tr *ngFor="let ranks of rankings">
-    <td>{{ranks.Rank}}</td>
-    <td>{{ranks.Team}}</td>
-    <td>{{ranks.Points}}</td>
-    <td>{{ranks.Rating}}</td>
+  <tr *ngFor="let ranks of response;let i = index">
+    <td>{{response[i].rank}}</td>
+    <td>{{response[i].team}}</td>
+    <td>{{response[i].points}}</td>
+    <td>{{response[i].rating}}</td>
   </tr>
   
   </table>

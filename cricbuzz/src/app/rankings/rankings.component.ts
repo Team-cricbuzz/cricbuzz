@@ -11,13 +11,16 @@ import { RankingService } from './ranking.service';
 export class RankingsComponent implements OnInit {
 
   public rankings : IRankings[];
+  response:any;
 
   constructor(private ranks:RankingService) { 
    
   }
 
   ngOnInit() {
-  this.ranks.getRankings().subscribe(rankdata => this.rankings=rankdata)
+  this.ranks.getRankings().subscribe((response) =>{ 
+    this.response=response;
+    console.log(this.response)});
   }
 
 }

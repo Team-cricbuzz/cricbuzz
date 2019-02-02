@@ -1,10 +1,9 @@
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<body>
 
-
+ <nav class="navbar navbar-expand-sm bg-dark navbar-dark"><h4 >Score Board</h4></nav>
 <div class="id"><h4>India vs Australia,Adelaide</h4></div>
-<div class="id2"><h4>India won by 6 wickets</h4></div>
+<div class="id2"><h5>India won by 6 wickets</h5></div>
 <table id="scores">
   <tr>
   AUS-298/9 (50.0 overs)
@@ -69,7 +68,7 @@
         Recent balls: 11..1. | ..1211 |1.1161 |2.
       </tr>
 </table> <br><br>
-<div class="id3"> <nav class="navbar navbar-expand-sm bg-dark navbar-dark"><h6>Commentry</h6></nav></div>
+<div class="id"><h6>Commentry</h6></div>
 <table id="scores">
     <tr>
       <h6>Virat Kohli, winning captain and player of the match :</h6>
@@ -78,4 +77,21 @@
       </tr>
       </table>
       
-    </body>
+ -->
+
+ <table id="scores">
+     <tr>
+    <th>match</th>
+    <th>score</th>
+    <th>overs</th>
+  </tr> 
+  <tbody>
+   <tr *ngFor="let scores of response;let i = index" > 
+    <td>{{response[i].match}}</td>
+    <td>{{response[i].score}}</td>
+    <td>{{response[i].overs}}</td>  
+  </tr>
+</tbody>
+  
+  </table>
+

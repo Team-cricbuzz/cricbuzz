@@ -1,19 +1,16 @@
 .id{
     background-color:  black;
     color :  white;
-    margin-left: 150px;
-    margin-right: 150px;
    }
-   .id2,.id3{
-       margin-left: 150px;
-       margin-right: 150px;
-       color :white;
+   .id2{
+       
+       color : crimson;
       }
       
    #scores {
        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
        border-collapse: collapse;
-       width: 80%;
+       width: 100%;
      }
      
      #scores td, #scores th {
@@ -29,17 +26,9 @@
        padding-top: 12px;
        padding-bottom: 12px;
        text-align: left;
-       background-color: rgb(0, 0, 0);
+       background-color: olive;
        color: white;
      }
      h4{
        color: white;
-      
-     }
-     table{
-       margin-left: 150px;
-      
-     }
-     body{
-       background-color: lightblue;
      }

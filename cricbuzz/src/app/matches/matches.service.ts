@@ -1,19 +1,20 @@
 import {Injectable} from '@angular/core'
-import { Observable } from 'rxjs';
 import { HttpClient} from '@angular/common/http';
-import { Imatches } from '../imatches';
+import { match } from './match';
 
 @Injectable()
 export class MatchService{
-    private _url : string = "../assets/data/matches.json";
+    private _url : string = "http://localhost:3000/match/all";
 
     constructor(private http : HttpClient){
 
     }
 
-    getMatches() : Observable<Imatches[]>{
-        return this.http.get<Imatches[]>(this._url);
-        }
-      
+    getAll()  {
+        console.log("matches")
+        const headers = new Headers();
+         return this.http.get<match[]>(this._url );
+     
+         }
       
 }

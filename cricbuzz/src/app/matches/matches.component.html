@@ -1,7 +1,21 @@
-<div class="card">
-  <div class="card-body" >
-    <h4 class="card-title"  *ngFor="let match of rankings">{{match['team-1']}}</h4>
-    <p class="card-text">Some example text. Some example text.</p>
-    
-  </div>
-</div>
+<table id="match">
+  <tr>
+ <th>team1</th>
+ <th>team2</th>
+ <th>type</th>
+ <th>date</th>
+ <th>squad</th>
+ <th>matchStarted</th>
+</tr> 
+<tbody>
+<tr *ngFor="let match of response;let i = index" > 
+ <td>{{response[i].team1}}</td>
+ <td>{{response[i].team2}}</td>
+ <td>{{response[i].type}}</td> 
+ <td>{{response[i].date}}</td>
+ <td>{{response[i].squad}}</td>
+ <td>{{response[i].matchStarted}}</td>  
+</tr>
+</tbody>
+
+</table>

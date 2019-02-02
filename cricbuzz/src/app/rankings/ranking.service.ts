@@ -5,7 +5,7 @@ import { HttpClient} from '@angular/common/http';
 
 @Injectable()
 export class RankingService{
-    private _url : string = "../assets/data/rankings.json";
+    private _url : string = "http://localhost:5000/rank";
 
     constructor(private http : HttpClient){
 
