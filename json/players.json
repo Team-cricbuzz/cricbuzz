@@ -1,0 +1,124 @@
+[
+    {
+"Name" : "MS Dhoni",
+"Team" : "India",
+"Type" : "Batsman"
+}, 
+{
+    "Name" : "Virat Kohli",
+    "Team" : "India",
+    "Type" : "Batsman"
+
+},
+{
+    "Name" : "Prabhat kumar",
+    "Team" : "India",
+    "Type" : "Batsman"
+
+},
+{
+    "Name" : "Sachin Tendulkar",
+    "Team" : "India",
+    "Type" : "Batsman"
+
+},
+{
+    "Name" : "Hardik Pandya",
+    "Team" : "India",
+    "Type" : "Batsman/Bowler"
+
+},
+{
+    "Name" : "Glenn Maxwel",
+    "Team" : "Australia",
+    "Type" : "All-rounder"
+
+},
+{
+    "Name" : "Cris Gyale",
+    "Team" : "Westendies",
+    "Type" : "Batsman"
+
+},
+
+
+{
+    "Name" : "Stive Smitt",
+    "Team" : "Australia",
+    "Type" : "Batsman"
+
+},
+{
+    "Name" : "Evin Lewis",
+    "Team" : "West Indies",
+    "Type" : "Batsman"
+
+},
+{
+    "Name" : "Jason Holder",
+    "Team" : "West Indies",
+    "Type" : "All-Rounder"
+
+},
+{
+    "Name" : "Shoeb Malik",
+    "Team" : "Pakistan",
+    "Type" : "All-rounder"
+
+},
+{
+    "Name" : "Mohammad Amir",
+    "Team" : "Pakistan",
+    "Type" : "Bowler"
+
+},
+{
+    "Name" : "Ben Stokes",
+    "Team" : "England",
+    "Type" : "All-rounder"
+
+},
+{
+    "Name" : "Tamim Iqbal",
+    "Team" : "Bangladesh",
+    "Type" : "Batsman"
+
+},
+{
+    "Name" : "Mehidy Hasan",
+    "Team" : "Bangladesh",
+    "Type" : "All-rounder"
+
+},
+{
+    "Name" : "Hashim Amla",
+    "Team" : "South Africa",
+    "Type" : "Batsman"
+
+},
+{
+    "Name" : "Imran Tahir",
+    "Team" : "South Africa",
+    "Type" : "Bowler"
+
+},
+{
+    "Name" : "Kane Williamson",
+    "Team" : "New Zealand",
+    "Type" : "Batsman"
+
+},
+{
+    "Name" : "Team Southee",
+    "Team" : "New Zealand",
+    "Type" : "Bowler"
+
+},
+{
+    "Name" : "Tom Latham",
+    "Team" : "New Zealand",
+    "Type" : "Wicket-keeper"
+
+}
+
+]
