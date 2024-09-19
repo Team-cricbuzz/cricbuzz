@@ -8,7 +8,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the repository
-                git branch: 'main', url: 'https://github.com/Team-cricbuzz/cricbuzz.git'
+                git branch: 'parthi', url: 'https://github.com/Team-cricbuzz/cricbuzz.git'
             }
         }
         stage('Build') {
