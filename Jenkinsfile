@@ -16,7 +16,7 @@ pipeline {
             parallel {
                 stage('Stage 1') {
                     when {
-                        expression { return env.BRANCH_NAME == 'main' }
+                        expression { return env.BRANCH_NAME == 'parthi' }
                     }
                     steps {
                         script {
@@ -34,7 +34,7 @@ pipeline {
                 }
                 stage('Stage 2') {
                     when {
-                        expression { return env.BRANCH_NAME == 'develop' }
+                        expression { return env.BRANCH_NAME == 'simer' }
                     }
                     steps {
                         echo 'Running Stage 2 on develop branch...'
